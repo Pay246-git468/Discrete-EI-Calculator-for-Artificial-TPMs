@@ -17,9 +17,9 @@ The project requires the following environment to be set up:
     ```
     conda activate causal
     ```
-4. Install the following packages: jupyter notebook, numpy, matplotlib, nbformat==5.10.4, nbconvert==7.16.1 using the following command:
+4. Install the following packages: jupyter notebook, numpy, matplotlib, scikit-learn, ipykernel, nbformat==5.10.4, nbconvert==7.16.1 using the following command:
     ```
-    pip install jupyter notebook numpy matplotlib ipykernel nbformat==5.10.4 nbconvert==7.16.1
+    pip install jupyter notebook numpy matplotlib scikit-learn ipykernel nbformat==5.10.4 nbconvert==7.16.1
     ```
 5. Set the virtual environment as the Jupyter Notebook's kernel and change the kernel to "causal" after launching Jupyter Notebook using the following command:
     ```
